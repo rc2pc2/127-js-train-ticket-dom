@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(0, 0, 41);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 3rem;
+    color:  rgb(0, 0, 41);
+    text-align: center;
+}
+
+div.input-group{
+    display: flex;
+    flex-direction: column;
+}
+
+div.input-group label,
+div.input-group input{
+    margin-bottom: 1rem;
+}
+
+div.input-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button{
+    background-color: rgb(0, 0, 41);
+    border: 1px solid white;
+    color: white;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    transition: ease .25s;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(9, 9, 126);
+}
+
+button:active{
+    background-color: rgb(18, 18, 178);
+}
+
+
+button#reset-ticket{
+    background-color: rgb(255, 221, 0);
+    border: 1px solid black;
+    color: black;
+}
+
+section.ticket{
+    padding: 3rem;
+}
